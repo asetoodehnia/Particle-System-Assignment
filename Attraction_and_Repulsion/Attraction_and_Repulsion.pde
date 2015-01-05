@@ -1,7 +1,4 @@
 /*
-  Using PVector class to make an array of particles
- with repulsion/attraction forces.
- 
  Hold down key to add particles.
  
  Particles will be automatically removed  if the amount exceeds the limit.
@@ -12,7 +9,7 @@
 //------------------------ INITIALIZE VARIABLES ------------------------
 
 ArrayList<Particle> p = new ArrayList<Particle>(); //initialize arraylist of particles named "p"
-int maxParticles = 2000; //max amount of particles
+int maxParticles = 2000;                           //max amount of particles
 
 //------------------------ SETUP ---------------------------------------
 

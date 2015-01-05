@@ -6,7 +6,7 @@ class Particle {
   int sz;                 //size of particle
   float mass;             //mass variable
   int velocityLimit = 5;  //the maximum velocity a particle can travel at
-  float d;                //distance variable between particle and the target co-ordinates (tbd later)
+  float d;                //distance variable between particle and the target coordinates (tbd later)
   color c;                //color variable
 
   //CONSTRUCTOR
@@ -66,7 +66,7 @@ class Particle {
   }
 
   //main method that combines all previous methods, and takes two arguments
-  //tx and ty are inherited from forces(), and set the attractive/repulsive co-ords
+  //tx and ty are inherited from forces(), and set the attractive/repulsive coordinates
   void run(float tx, float ty) {
     forces(tx, ty);
     display();
